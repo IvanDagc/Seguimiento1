@@ -1,0 +1,69 @@
+package Banco;
+
+public class Clientes {
+    
+    String nombre;
+    String direccion;
+    String id;
+    String correo;
+    String contrasena;
+
+    //Constructor
+    public Clientes (String nombre, String direccion, String string, String correo, String contrasena){
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this. id = string;
+        this.correo = correo;
+        this.contrasena = contrasena;
+        } 
+
+        public String getNombre(){
+            return nombre;
+        }
+        public void setNombre(String nombre){
+            this.nombre = nombre;
+        }
+        public String getDireccion(){
+            return direccion;
+        }
+        public void setDireccion(String direccion){
+            this.direccion = direccion;
+        }
+        public String getId(){
+            return id;
+        }
+        public void setId(String id){
+            this.id = id;
+        }
+        public String getCorreo(){
+            return correo;
+        }
+        public void setCorreo(String correo){
+            this.correo = correo;
+        }
+        public String getContrasena(){
+            return contrasena;
+        }
+        public void setContrasena(String contrasena){
+            this.contrasena = contrasena;
+        }
+        @Override
+    public String toString() {
+        return "Cliente{" +
+                "nombre='" + nombre + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", id=" + id +
+                ", correo='" + correo + '\'' +
+                ", contrasena='" + contrasena + '\'' +
+                '}';
+    }
+
+        public Object getNumeroIdentificacion() {
+            // TODO Auto-generated method stub
+            throw new UnsupportedOperationException("Unimplemented method 'getNumeroIdentificacion'");
+        }
+ }
+
+
+
+
